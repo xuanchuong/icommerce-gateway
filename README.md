@@ -27,10 +27,10 @@ auto-refreshes when files change on your hard drive.
 
 ```
 
-./mvnw
+npm run webpack:build
 
 
-npm start
+mvn spring-boot:run
 ```
 
 Npm is also used to manage CSS and JavaScript dependencies used in this application. You can upgrade dependencies by

@@ -180,9 +180,8 @@ This will concatenate and minify the client CSS and JavaScript files. It will al
 To ensure everything worked, run:
 
 ```
-
-java -jar target/*.jar
-
+mvn validate -Pdrop-snapshot
+mvn install
 
 ```
 
